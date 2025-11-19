@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task App - TypeScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Task App (TypeScript)</h1>
+
+    <form id="task-form">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Write a new task..."
+        required
+      />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <script type="module" src="./dist/app.js"></script>
+</body>
+</html>
